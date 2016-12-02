@@ -193,6 +193,7 @@
     <Content Include="fonts\fontawesome-social-webfont.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\2016-Sweepstakes-640x400.jpg" />
     <Content Include="images\bg.jpg" />
     <Content Include="images\camping.jpg" />
     <Content Include="images\dolphins.jpg" />
@@ -201,6 +202,7 @@
     <Content Include="images\palace.jpg" />
     <Content Include="images\pic01.jpg" />
     <Content Include="images\riverside-city.jpg" />
+    <Content Include="images\wallpaper.jpg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

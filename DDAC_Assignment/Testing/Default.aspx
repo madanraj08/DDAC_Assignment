@@ -5,14 +5,16 @@
     <div id="content">
 		<div class="title">
 			<h2>Welcome to <br />Princess Cruises</h2>
-			<span class="byline">Mauris vulputate dolor sit amet nibh</span> </div>
-		<a href="#" class="image image-full"><img src="images/pic01.jpg" alt="" /></a>
-		<p>This is <strong>Mongoose </strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
-		<div id="onecolumn">
+			<span class="byline">#1 CRUISE LINE IN JAPAN</span> </div>
+		<a href="#" class="image image-full"><img src="images/2016-Sweepstakes-640x400.jpg" alt="" /></a>
+		<p><strong>Wherever there's an ocean, Princess can take you there. </strong>First time cruising with Princess? These are the most popular destinations for first-timers:</p>
+		<p><a style="padding-right:5px" href="">Alaska</a>|<a style="padding-right:5px; padding-left:5px" href="">Caribbean</a>|<a style="padding-right:5px; padding-left:5px" href="">Europe</a>|<a style="padding-right:5px; padding-left:5px" href="">3 to 5 day Pricess Getaways</a></p>
+        <p><a href="">View our 2016-2017 cruise destination schedule</a></p>
+        <div id="onecolumn">
 			<div class="title">
-				<h2>Pellentesque quis lectus gravida blandit</h2>
+				<h2>CRUISE TIPS & VACATION IDEAS</h2>
 			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem.</p>
+			<p>Prepare for your next cruise vacation with articles about your favorite cruise destinations, cruise planning tips, and much more !</p>
 		</div>
 	</div>
     <div id="sidebar">
@@ -69,23 +71,23 @@
 		</ul>
 		<div id="stwo-col">
 			<div class="sbox1">
-				<h2>Etiam rhoncus</h2>
+				<h2 style="margin-bottom:-20px">Onboard Experience</h2>
 				<ul class="style2">
-					<li><a href="#">Semper quis egetmi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat dolor</a></li>
-					<li><a href="#">Amet ornare hendrerit lectus</a></li>
-					<li><a href="#">Consequat lorem phasellus</a></li>
-					<li><a href="#">Amet turpis feugiat amet</a></li>
+					<li><a href="#">Food and Dining</a></li>
+					<li><a href="#">Activities</a></li>
+					<li><a href="#">Entertainment</a></li>
+					<li><a href="#">Wellness</a></li>
+                    <li><a href="#">Celebrations</a></li>
 				</ul>
 			</div>
 			<div class="sbox2">
-				<h2>Integer gravida</h2>
+				<h2 style="margin-bottom:-20px">Ship Informations</h2>
 				<ul class="style2">
-					<li><a href="#">Semper quis egetmi dolore</a></li>
-					<li><a href="#">Quam turpis feugiat dolor</a></li>
-					<li><a href="#">Amet ornare hendrerit lectus</a></li>
-					<li><a href="#">Consequat lorem phasellus</a></li>
-					<li><a href="#">Amet turpis feugiat amet</a></li>
+					<li><a href="#">Ships</a></li>
+					<li><a href="#">Deck Plans</a></li>
+					<li><a href="#">Bridge Cams</a></li>
+					<li><a href="#">Ship Videos</a></li>
+					<li><a href="#">Wifi & In-Cabin Calling</a></li>
 				</ul>
 			</div>
 		</div>
