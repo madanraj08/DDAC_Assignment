@@ -284,6 +284,7 @@
 	{
 	}
 
+
 	#header
 	{
 		position: relative;
@@ -577,7 +578,7 @@ select {
     margin-bottom:10px;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input input[type=submit], input[type=reset] {
     width:100%;
     background-color: #cc9966;
     border: none;
@@ -589,6 +590,67 @@ input[type=button], input[type=submit], input[type=reset] {
     border-radius: 10px;
 }
 
+
 /*********************************************************************************/
-/* Bootstrap                                                                 */
+/* Login                                                                        */
 /*********************************************************************************/
+
+.formclass{
+    padding:20px;
+    margin:0px 20px;
+    width:200px;
+   
+}
+
+.inputLogin{
+    padding:2px;
+    width:100%;
+}
+
+
+/*********************************************************************************/
+/* Registration                                                                  */
+/*********************************************************************************/
+
+.block{
+    margin:10px;
+}
+
+.block label{
+    display:inline-block;
+    width:140px;
+    text-align:right;
+    padding-right:5px;
+}
+
+.ButtonCss{
+    padding-left:130px;
+}
+
+.LoginBtnCss{
+    padding-left:145px;
+
+}
+.LogButton{
+    margin:10px;
+    padding:10px 70px;
+    background-color: #cc9966;
+    color: white;
+    border-radius: 5px;
+}
+
+.RegistrationButton{
+    margin:20px;
+    padding:10px;
+    background-color: #cc9966;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.block p{
+    padding-left:140px;
+ 
+}
+
+
