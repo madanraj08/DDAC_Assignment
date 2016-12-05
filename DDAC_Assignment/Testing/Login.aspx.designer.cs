@@ -40,22 +40,22 @@ namespace Testing {
         protected global::System.Web.UI.WebControls.Button btnLogin;
         
         /// <summary>
-        /// email control.
+        /// LoginEmail control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email;
+        protected global::System.Web.UI.WebControls.TextBox LoginEmail;
         
         /// <summary>
-        /// password control.
+        /// LoginPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox password;
+        protected global::System.Web.UI.WebControls.TextBox LoginPassword;
         
         /// <summary>
         /// LoginBtn control.

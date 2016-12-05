@@ -22,7 +22,7 @@ namespace Testing
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["connect"].ToString());
 
             con.Open();
-            string query = "select count(*) from LoginUser where email='" + txtEmail.Text + "' and pass='" + txtPassword.Text +"' ";
+            string query = "select count(*) from LoginUser where email='" + LoginEmail.Text + "' AND pass='" + LoginPassword.Text + "' ";
 
             SqlCommand cmd = new SqlCommand(query, con);
             string output = cmd.ExecuteScalar().ToString();

@@ -18,11 +18,11 @@
           </div> -->
          <div class="block">
                  <label>Email Address:</label>
-                 <asp:TextBox ID="email" CssClass="" runat="server"></asp:TextBox>
+                 <asp:TextBox ID="LoginEmail" CssClass="" runat="server"></asp:TextBox>
          </div>
          <div class="block">
                  <label>Password:</label>
-                 <asp:TextBox ID="password" CssClass="" runat="server"></asp:TextBox>
+                 <asp:TextBox ID="LoginPassword" CssClass="" TextMode="Password" runat="server"></asp:TextBox>
          </div>
 
          <div class="LoginBtnCss">
