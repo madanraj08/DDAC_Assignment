@@ -654,3 +654,17 @@ input input[type=submit], input[type=reset] {
 }
 
 
+.SearchButtonCSS
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #E5E5E5;
+        background-color: #cc9966;
+        width:500px;
+        border-radius:15px;
+	}

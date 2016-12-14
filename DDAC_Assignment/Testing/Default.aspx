@@ -21,7 +21,7 @@
 		<ul class="style1">
 			<li class="first">
 				<h3>Find A Cruise</h3>
-				    <form action="Search">
+				    <form action="Search" runat="server">
 						<select name="Month-Year" id="">
 							<option value="month">Month/Year: Any</option>
                             <option value="month">December 2016</option>
@@ -55,7 +55,8 @@
                             <option value="port">Singapore</option>
                             <option value="port">Adelaide,Australia</option>
 						</select>
-						<input type="submit" value="Search"/>
+                        <asp:Button ID="btnConfirmSearch" CssClass="SearchButtonCSS" PostBackUrl="~/SearchList.aspx" runat="server" Text="Search" />
+
 					</form>
 			</li>
 			<li style="margin-bottom:-50px">

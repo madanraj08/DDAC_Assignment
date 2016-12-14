@@ -13,5 +13,12 @@ namespace Testing
         {
 
         }
+
+        protected void SearchButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Contact.aspx");
+            Server.Transfer("Contact.aspx");
+           
+        }
     }
 }
