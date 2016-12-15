@@ -17,15 +17,15 @@
             <div class="thumbnail">
                 <div class="caption">
                     <p><img src="images/camping.jpg" alt="cruise" width="300" height="250"></p>
-                    <h3>Caribbean Cruises</h3>
-                    <br /><a href="#">Visit the Caribbean</a>
+                    <h3>Europe Cruises</h3>
+                    <br /><a href="#">Visit the Europe</a>
               </div>
             </div>
             <div class="thumbnail">
                 <div class="caption">
                     <p><img src="images/mountain-view.jpg" alt="cruise" width="300" height="250"></p>
-                    <h3>Caribbean Cruises</h3>
-                    <br /><a href="#">Visit the Caribbean</a>
+                    <h3>Hawaii Cruises</h3>
+                    <br /><a href="#">Visit the Hawaii</a>
               </div>
             </div>
         </div>
@@ -34,22 +34,22 @@
             <div class="thumbnail">
                 <div class="caption">
                     <p><img src="images/palace.jpg" alt="cruise" width="300" height="250"></p>
-                    <h3>Caribbean Cruises</h3>
-                    <br /><a href="#">Visit the Caribbean</a>
+                    <h3>Japan Cruises</h3>
+                    <br /><a href="#">Visit the Japan</a>
               </div>
             </div>
             <div class="thumbnail">
                 <div class="caption">
                     <p><img src="images/riverside-city.jpg" alt="cruise" width="300" height="250"></p>
-                    <h3>Caribbean Cruises</h3>
-                    <br /><a href="#">Visit the Caribbean</a>
+                    <h3>Mexico Cruises</h3>
+                    <br /><a href="#">Visit the Mexico</a>
               </div>
             </div>
             <div class="thumbnail">
                 <div class="caption">
                     <p><img src="images/dolphins.jpg" alt="cruise" width="300" height="250"></p>
-                    <h3>Caribbean Cruises</h3>
-                    <br /><a href="#">Visit the Caribbean</a>
+                    <h3>Australia Cruises</h3>
+                    <br /><a href="#">Visit the Australia</a>
               </div>
             </div>
         </div>
