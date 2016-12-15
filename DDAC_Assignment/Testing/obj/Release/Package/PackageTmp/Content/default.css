@@ -1,0 +1,670 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #ad8667 url('images/bg.jpg');
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #515151;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		color: #32251B;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+        margin-left:20px;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #32251B;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		margin: 0em auto;
+		width: 1200px;
+        
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+		margin: 0;
+		padding: 0em 0em 0em 0em;
+		overflow: hidden;
+		list-style: none;
+		color: #6c6c6c
+	}
+	
+	ul.style1 li
+	{
+		overflow: hidden;
+		display: block;
+		padding: 2.80em 0em;
+		border-top: 1px solid #D1CFCE;
+	}
+	
+	ul.style1 li:first-child
+	{
+		padding-top: 0;
+		border-top: none;
+	}
+	
+	ul.style1 .image-left
+	{
+		margin-bottom: 0;
+	}
+	
+	ul.style1 h3
+	{
+		padding: 1.2em 0em 1em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #454445;
+	}
+	
+	ul.style1 a
+	{
+		text-decoration: none;
+		color: #525252;
+	}
+
+	ul.style1 a:hover
+	{
+		text-decoration: underline;
+		color: #525252;
+	}
+
+	ul.style2
+	{
+		margin: 0;
+		padding-top: 1em;
+		list-style: none;
+	}
+	
+	ul.style2 li
+	{
+		border-top: solid 1px #E5E5E5;
+		padding: 0.80em 0;
+	}
+	
+	ul.style2 li:first-child
+	{
+		border-top: 0;
+		padding-top: 0;
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+		
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+
+	.title h2
+	{
+		font-weight: 400;
+		font-size: 2.8em;
+		color: #323232;
+	}
+	
+	.title .byline
+	{
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #6F6F6F;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	
+	#header-wrapper
+	{
+	}
+
+
+	#header
+	{
+		position: relative;
+		height: 150px;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: absolute;
+		top: 3em;
+		left: 10px;
+		width: 100%;
+        
+	}
+	
+	#logo h1
+	{
+		display: inline-block;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #FFF;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		right: 10px;
+		top: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: block;
+		padding: 0em 1.5em;
+		height: 150px;
+		letter-spacing: 0.20em;
+		line-height: 150px;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: #FFF;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #32251B;
+		color: #FFFFFF;
+	}
+	
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+	}
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		overflow:hidden;
+		background-color: #FFF;
+		border-top: 20px solid #32251B;
+       
+	}
+
+    #page p
+	{
+		margin-right:5%;
+        text-align:justify;
+       
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+		float: left;
+		width: 500px;
+		padding: 50px;
+		background-color: #F3F3F3;
+	}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+		float: right;
+		width: 500px;
+		padding: 50px;
+	}
+
+	#stwo-col
+	{
+		margin-top: 2em;
+	}
+
+	#stwo-col h2
+	{
+		display: block;
+		padding-bottom: 1.5em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		font-weight: 600;
+		color: #454445;
+	}
+
+	#stwo-col .sbox1
+	{
+		float: left;
+		width: 230px;
+	}
+
+	#stwo-col .sbox2
+	{
+		float: right;
+		width: 230px;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 0.80em;
+		color: #FFF;
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+/*********************************************************************************/
+/* One Column                                                                    */
+/*********************************************************************************/
+
+	#onecolumn
+	{
+		margin-top: 4em;
+	}
+	
+	#onecolumn .title
+	{
+		margin-bottom: 1em;
+	}
+
+	#onecolumn .title h2
+	{
+		font-size: 1.8em;
+	}
+
+
+/*********************************************************************************/
+/* Destination                                                                   */
+/*********************************************************************************/
+.caption{
+    padding:10px 5px 5px 5px;
+    text-align:center;
+}
+
+.caption img{
+    padding-top:20px;
+}
+
+.thumbnail{
+    background-color:#f0f0f5;
+    border-radius: 10px;
+}
+.caption a{
+    position:center;
+}
+
+.flex-row .thumbnail,
+.flex-row .caption {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+.flex-text {
+    flex-grow: 1;
+}    
+.flex-row img {
+    width: 100%;
+    height:auto;
+}
+@media only screen and (min-width : 480px) {
+   .flex-row.row {
+	 display: flex;
+	 flex-wrap: wrap;
+   }
+   .flex-row.row > [class*='col-'] {
+	 display: flex;
+	 flex-direction: column;
+   }
+  .flex-row.row:after, 
+  .flex-row.row:before {
+	 display: flex;
+  }
+  .table-row-equal {
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+		border-spacing: 30px 0px;
+		word-wrap: break-word;
+		border-spacing: 30px 0px;
+        margin-top:20px;
+
+	}
+	.table-row-equal .thumbnail {
+		float: none;
+		display: table-cell;
+		vertical-align: top;
+		width: 1%;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 10px 4px rgba(0, 0, 0, 0.24);
+	}
+}
+
+/*********************************************************************************/
+/* Default.aspx                                                                  */
+/*********************************************************************************/
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    margin-bottom:10px;
+}
+
+input input[type=submit], input[type=reset] {
+    width:100%;
+    background-color: #cc9966;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+/*********************************************************************************/
+/* Login                                                                        */
+/*********************************************************************************/
+
+.formclass{
+    padding:20px;
+    margin:0px 20px;
+    width:200px;
+   
+}
+
+.inputLogin{
+    padding:2px;
+    width:100%;
+}
+
+
+/*********************************************************************************/
+/* Registration                                                                  */
+/*********************************************************************************/
+
+.block{
+    margin:10px;
+}
+
+.block label{
+    display:inline-block;
+    width:140px;
+    text-align:right;
+    padding-right:5px;
+}
+
+.ButtonCss{
+    padding-left:130px;
+}
+
+.LoginBtnCss{
+    padding-left:145px;
+
+}
+.LogButton{
+    margin:10px;
+    padding:10px 70px;
+    background-color: #cc9966;
+    color: white;
+    border-radius: 5px;
+}
+
+.RegistrationButton{
+    margin:20px;
+    padding:10px;
+    background-color: #cc9966;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.block p{
+    padding-left:140px;
+ 
+}
+
+
+.SearchButtonCSS
+	{
+		display: inline-block;
+		padding: 1em 3em 1em 2em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #E5E5E5;
+        background-color: #cc9966;
+        width:500px;
+        border-radius:15px;
+	}
